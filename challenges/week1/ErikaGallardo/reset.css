@@ -1,0 +1,129 @@
+body {
+    line-height: 1.8;
+    background-color: rgb(250, 250, 250);
+    color: rgb(28, 32, 34);
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    line-height: 2;
+    background-color:#ef7f6e;
+    color:white;
+    font-family: 'Segoe UI';
+    font-style: bold;
+}
+
+.ulheader{
+    list-style-type: none;
+
+}
+
+.ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 12px;
+    line-height: 18px;
+    color:white;
+}
+
+.btn {
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    background-color: white !important;
+    color:#ef7f6e;
+    text-align: center;
+    text-decoration: none;
+}
+ .btn1{
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #ef7f6e !important;
+    font-weight: bold;
+    border:white 1px solid;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tit{
+    font-family: 'Segoe UI';
+    font-style: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color:white;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.sub{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+
+.titdark{
+    font-family: 'Segoe UI';
+    font-style: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #35374f;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+
+.subdark{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #35374f;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.pwhite{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 20px;
+    color:white;
+    padding: 5px 5px;
+}
+
+.pdark{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: gray;
+    padding: 5px 5px;
+}
+
+.h6{
+    font-family: sans-serif;
+    font-style:normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: white;
+    padding: 5px 5px;
+}
+
+.section{
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    padding: 10px 15px;
+}

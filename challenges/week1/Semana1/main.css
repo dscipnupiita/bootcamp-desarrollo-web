@@ -23,23 +23,8 @@ body{
 }
 .main_header .menus{
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-.main_header .menu1 {
-    text-align: center;
-    padding: 30px;
-}
-.main_header .menu2{
-    text-align: center;
-    padding: 30px;
-}
-.main_header .menu3{
-    text-align: center;
-    padding: 30px;
-}
-.main_header .menu4{
-    text-align: center;
-    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;    
 }
 .main_header .hero{
     text-align: center;
@@ -168,7 +153,6 @@ footer{
     font-weight:lighter;
     color: white;
 }
-
 .row:after {
     content: "";
     display: table;

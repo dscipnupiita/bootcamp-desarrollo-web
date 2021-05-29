@@ -61,11 +61,15 @@
     height: 30px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 .imgWeight {
     max-width: 250%;
 }
 .imgWeight2 {
     max-width: 50%;
+}
+.general{
+    list-style: none;
+	display: inline-block;
 }

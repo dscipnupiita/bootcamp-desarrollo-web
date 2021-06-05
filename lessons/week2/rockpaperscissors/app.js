@@ -29,12 +29,12 @@ function convert(choice){
 
 function lose(user, computer){
     computerScore++
-    // updateScore()
+    updateScore()
     message.innerHTML = `${convert(user)} pierde contra ${convert(computer)}, entonces perdiste 😥`
 }
 function win(user, computer){
     userScore++
-    // updateScore()
+    updateScore()
     message.innerHTML = `${convert(user)} le gana a ${convert(computer)}, entonces ganaste 😎`
 }
 function draw(user, computer){

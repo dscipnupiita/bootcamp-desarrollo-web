@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+
+h2{
+    font-size: 48px;
+    line-height: 120%;
+}
+
+h6{
+    margin: 10px 0px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.main-header{
+    height: 60vh;
+    background: #734ae6;
+    padding: 15px;
+}
+
+.main-header nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+.main-header a{
+    margin: auto 20px;
+}
+
+.main-header nav li{
+    display: inline;
+    padding: 0px 0px;
+    margin: 0px 5px;
+}
+
+.header-description{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header-description h1{
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 56px;
+}
+
+.header-description p{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    max-width: 720px;
+    width: auto;
+}
+
+.container-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1260px;
+    margin:10px auto 0px;
+    padding: 0px 30px;
+}
+
+.gray{
+    background: #F6F6F6;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.description{
+    max-width: 380px;
+    margin:5px auto;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.description-last{
+    max-width: 1260px;
+}
+
+.footer-flex{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    color:#7289da;
+    background:#23272a;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+.container-last{
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-header{
+    border-width: 0px;
+    border-radius: 28px;
+    padding: 16px 32px;
+    margin: 0px 5px 20px;
+}
+
+.btn{
+    border-width: 0px;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin: 0px 5px 20px;
+}
+
+.btn-blue{
+    background: #7289da;
+    color: white;
+}
+
+.btn-black{
+    background: black;
+    color: white;
+}
+
+
+
+

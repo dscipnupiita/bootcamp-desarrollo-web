@@ -36,10 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 35px;
-}
-.score p{
-    position: inherit;
-    display: inherit;
+    padding-bottom: 5px;
 }
 
 .badge {

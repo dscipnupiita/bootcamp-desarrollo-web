@@ -16,20 +16,25 @@
         <div class="score-board">
             <div id="user-label" class="badge">User</div>
             <div id="computer-label" class="badge">Computer</div>
-            <div id="score">0:0</div>
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>:</p>
+                <p id="computer-score">0</p>
+            </div>
         </div>
     </section>
     <section class="result">
-        <p>Welcome!</p>
+        <p id="message">Welcome!</p>
     </section>
     <section class="choices-section">
-        <div class="choice">👊</div>
-        <div class="choice">🖐</div>
-        <div class="choice">✌</div>
+        <div class="choice" id="r">👊</div>
+        <div class="choice" id="p">🖐</div>
+        <div class="choice" id="s">✌</div>
     </section>
     <section id="action-message">
         <p>Make your move!</p>
     </section>
+    <script src="./app.js"></script>
 </body>
 
 </html>
